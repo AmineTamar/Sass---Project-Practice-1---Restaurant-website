@@ -1,6 +1,17 @@
 @import "base";
 @import "layout";
 @import "components";
+
+// dark-color #262626
+// black
+// primary - #d3ab55
+// secondary - #bbb
+//mixing flex
+//mixing  text 300 - 2ox spaceing - Uppercase
+
+//font - "Dancing Script" , cursive
+//-sub-font - "Josefin Sans" , sans-serif
+//main-font - "Nunito", sans-serif
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -61,22 +72,15 @@ $font-m : 32px;
 
 
 .banner {
-    
-display: flex;
-align-items: center;
-justify-content: center;
-   background-image: url(/images/bg.jpeg);
+   
+   background-image: url(../images/bg.jpeg);
    background-repeat: no-repeat;
    background-size: cover;
    width: 100%;
-   height: 400px;
+   height: 100svh;
    background-position: center;
 
    div.banner_content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     h2 {
         font-size: $font-l;
        }
